@@ -1,0 +1,21 @@
+body{
+    font-family: monospace;
+}
+
+ul{
+    font-family: Helvetica;
+}
+
+li{
+    list-style: circle;
+}
+
+#msg{
+    font-family: monospace;
+}
+
+.light-theme{
+    color:rgb(168, 57, 190);
+    background-color: rgb(223, 164, 97);
+    
+}
