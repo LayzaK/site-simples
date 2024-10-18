@@ -1,5 +1,18 @@
-body{
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+
+}
+
+
+*{
+    color:var(--fontColor);
     font-family: monospace;
+}
+
+body{
+    background: var(--bg);
 }
 
 ul{
@@ -10,12 +23,13 @@ li{
     list-style: circle;
 }
 
-#msg{
-    font-family: monospace;
+.light-theme{
+    --bg:var(--green);
+    --fontColor:var(--black);
 }
 
-.light-theme{
-    color:rgb(168, 57, 190);
-    background-color: rgb(223, 164, 97);
-    
+
+.dark-theme{
+    --bg:var(--black);
+    --fontColor:var(--green);
 }
